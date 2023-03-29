@@ -27,7 +27,7 @@ pip install gradio
 ## How to run?
 
 You can simply run the notebooks in order. Datasets are available [here](https://github.com/hasibzunair/cv-pytorch-tutorials/releases/tag/v1). For running the 
-web interface, you need to copy your image classification model named `model.pth` in the `web_interface` directory. Then simply run `python app.py`
+web interface, you need to copy your trained image classification model named `model.pth` in the `web_interface` directory. Then simply run `python app.py`
 
 ## Related materials
 
