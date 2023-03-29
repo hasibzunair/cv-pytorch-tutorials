@@ -20,7 +20,6 @@ model.eval()
 # Inference!
 def inference(input_image_path):
     image = Image.open(input_image_path).convert("RGB")
-    class_index = {0: 'cat', 1: 'dog'}
     preprocess = transforms.Compose([
         transforms.Resize((224, 224)),
         transforms.CenterCrop((224, 224)),
@@ -40,9 +39,9 @@ def inference(input_image_path):
         _, predictions = model.forward(input_batch)
     
     results = {}
-    print(predictions)
     results["cat"] = predictions[0][0].item()
     results["dog"] = predictions[0][1].item()
+    print(results)
     return results
 
 # Define ins outs placeholders
