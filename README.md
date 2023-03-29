@@ -3,6 +3,8 @@
 This repository gives you a walkthrough of training and testing image classification and semantic segmentation algorithms on custom datasets. Finally, it shows how 
 to build and run a simple web interface so that anyone can use it!
 
+![attention](./media/demo.png)
+
 ## Contents
 
 1. Train image classification model to recognize dogs and cats
