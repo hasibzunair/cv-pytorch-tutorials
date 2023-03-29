@@ -39,4 +39,6 @@ List of related tutorials that could be useful to look at.
 * Intro to Image Classification with Python and Keras - https://github.com/hasibzunair/whats-image-classifcation-really
 * Build 3D image classification models from CT scans https://keras.io/examples/vision/3D_image_classification/
 
+This repo is built using [hasibzunair/learn-pytorch](https://github.com/hasibzunair/learn-pytorch).
+
 <img src="./media/meme.jpeg" width="300">
