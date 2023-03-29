@@ -1,7 +1,13 @@
 # Tutorials on Computer Vision with PyTorch
 
-This repo gives a walkthrough of training and testing image classification and semantic segmentation algorithms. Finally, it shows how to 
-create a simple web interface so that anyone can use it!
+This repository gives you a walkthrough of training and testing image classification and semantic segmentation algorithms on custom datasets. Finally, it shows how 
+to build and run a simple web interface so that anyone can use it!
+
+## Contents
+
+1. Train image classification model to recognize dogs and cats
+2. Train semantic segmentation model to segment skin lesions from dermoscopic images
+3. Build a web interface using the image classification model
 
 ## Setup
 
@@ -9,8 +15,8 @@ Create a fresh conda environment.
 
 ```bash
 # clone
-git clone reponame
-cd reponame
+git clone https://github.com/hasibzunair/cv-pytorch-tutorials
+cd cv-pytorch-tutorials
 # create fresh conda environment
 conda create -n cvp python=3.8
 conda activate cvp
@@ -23,6 +29,8 @@ pip install gradio
 You can simply run the notebooks in order. See releases for the datasets.
 
 ## Related materials
+
+List of related tutorials that could be useful to look at.
 
 * Intro to Deep Learning - https://github.com/hasibzunair/neural-nets-for-babies
 * Intro to Python - https://github.com/hasibzunair/ieee18-cv
