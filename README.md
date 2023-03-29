@@ -11,7 +11,7 @@ to build and run a simple web interface so that anyone can use it!
 
 ## Setup
 
-Create a fresh conda environment. 
+Create a fresh conda environment.
 
 ```bash
 # clone
@@ -26,7 +26,7 @@ pip install gradio
 
 ## How to run?
 
-You can simply run the notebooks in order. See releases for the datasets.
+You can simply run the notebooks in order. Datasets are available [here](https://github.com/hasibzunair/cv-pytorch-tutorials/releases/tag/v1).
 
 ## Related materials
 
