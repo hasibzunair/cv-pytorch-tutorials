@@ -1,18 +1,19 @@
 import os
 import torch
 import gradio as gr
+import torch.nn.functional as F
 
 from PIL import Image
 from torchvision import transforms
 
-from model import VGG16
+from model import resnet18
 
 """
 Built following:https://huggingface.co/spaces/hasibzunair/image-recognition-demo
 """
 
 # Load PyTorch model
-model = VGG16(num_classes=2)
+model = resnet18(num_classes=2)
 checkpoint = torch.load("model.pth")
 model.load_state_dict(checkpoint)
 model.eval()
@@ -36,7 +37,8 @@ def inference(input_image_path):
         model.to('cuda')
 
     with torch.no_grad():
-        _, predictions = model.forward(input_batch)
+        logits = model(input_batch)
+        predictions = F.softmax(logits, dim=1)
     
     results = {}
     results["cat"] = predictions[0][0].item()
