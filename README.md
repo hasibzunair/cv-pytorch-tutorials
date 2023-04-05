@@ -1,7 +1,6 @@
 # Tutorials on Computer Vision with PyTorch
 
-This repository gives you a walkthrough of training and testing image classification and semantic segmentation algorithms on custom datasets. Finally, it shows how 
-to build and run a simple web interface so that anyone can use it!
+This repository gives you a walkthrough of training and testing image classification and semantic segmentation algorithms on custom datasets. Finally, it shows how to build and run a simple web interface so that anyone can use it!
 
 ![attention](./media/demo.png)
 
@@ -26,10 +25,19 @@ conda install pytorch torchvision torchaudio pytorch-cuda=11.6 -c pytorch -c nvi
 pip install gradio
 ```
 
+or use env file:
+
+```bash
+conda update conda
+conda env create -f environment.yml
+conda activate myenv
+```
+
 ## How to run?
 
-You can simply run the notebooks in order. Datasets are available [here](https://github.com/hasibzunair/cv-pytorch-tutorials/releases/tag/v1). For running the 
-web interface, you need to copy your trained image classification model named `model.pth` in the `web_interface` directory. Then simply run `python app.py`
+You can simply run the notebooks in order. Datasets are available [here](https://github.com/hasibzunair/cv-pytorch-tutorials/releases/tag/v1). Make a new folder in the project folder called `datasets` and keep them there.
+
+To run the web interface, you need to copy your trained image classification model named `model.pth` in the `web_interface` directory. Then simply run `python app.py`
 
 ## Related materials
 
