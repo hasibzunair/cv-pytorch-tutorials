@@ -44,7 +44,7 @@ To run the web interface, you need to copy your trained image classification mod
 Here is a list of my related tutorials that could be useful to look at.
 
 * [Intro to Deep Learning](https://github.com/hasibzunair/neural-nets-for-babies)
-* [Intro to Python](https://github.com/hasibzunair/ieee18-cv)
+* [Intro to Python](https://github.com/hasibzunair/ieee19-py)
 * [Intro to TensorFlow](https://github.com/hasibzunair/ericsson-upskill-tutorials)
 * [Intro to Image Processing and Computer Vision](https://github.com/hasibzunair/ieee18-cv)
 * [Intro to Image Classification with Python and Keras](https://github.com/hasibzunair/whats-image-classifcation-really)
