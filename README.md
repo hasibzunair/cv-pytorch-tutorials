@@ -9,6 +9,8 @@ This repository gives you a walkthrough of training and testing image classifica
 1. Train image classification model to recognize dogs and cats
 2. Train semantic segmentation model to segment skin lesions from dermoscopic images
 3. Build a web interface using the image classification model
+4. If you want to go beyond, have a look at [Build and Deploy Custom Docker Images for Object Recognition
+](https://pub.towardsai.net/build-and-deploy-custom-docker-images-for-object-recognition-d0d127b2603b)
 
 ## Setup
 
