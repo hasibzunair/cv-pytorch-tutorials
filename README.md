@@ -1,4 +1,4 @@
-# Deep learning in computer vision with PyTorch
+# Deep Learning in Computer Vision with PyTorch
 
 **[How To Get Started With Computer Vision In 2023?](https://pub.towardsai.net/how-to-get-started-with-computer-vision-in-2023-9731d058bac1), Towards AI**.
 
